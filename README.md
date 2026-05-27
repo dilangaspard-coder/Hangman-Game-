@@ -82,7 +82,7 @@
             System.out.print ("\\|  ");
             System.out.println ("|___");
             System.out.println (" |  |__|");
-            System.out.println (" |   /");
+            System.out.println (" |  /");
             System.out.println(" |");
             System.out.println(" |");
             System.out.println(" |");
@@ -95,7 +95,7 @@
             System.out.print ("\\|  ");
             System.out.println ("|___");
             System.out.println (" |  |__|");
-            System.out.println (" |   / \\");
+            System.out.println (" |  /  \\");
             System.out.println(" |");
             System.out.println(" |");
             System.out.println(" |");
@@ -410,7 +410,7 @@
                     input.close();
                     return;
                 }
-    
+                    break;
                 
             }
        
@@ -435,7 +435,7 @@
                 input.close();
                 return;
             }
-            
+            break;
         }
     }
 
