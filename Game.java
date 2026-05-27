@@ -50,7 +50,7 @@ class Figures {
         System.out.print ("\\|  ");
         System.out.println ("|___");
         System.out.println (" |  |__|");
-        System.out.println (" |   /");
+        System.out.println (" |  /");
         System.out.println(" |");
         System.out.println(" |");
         System.out.println(" |");
@@ -63,7 +63,7 @@ class Figures {
         System.out.print ("\\|  ");
         System.out.println ("|___");
         System.out.println (" |  |__|");
-        System.out.println (" |   / \\");
+        System.out.println (" |  /  \\");
         System.out.println(" |");
         System.out.println(" |");
         System.out.println(" |");
@@ -377,8 +377,8 @@ for (int i = 0; i < guessedWord.length;++i){
                 input.close();
                 return;
             }
+            break;
 
-            
         }
        
 
@@ -402,7 +402,7 @@ for (int i = 0; i < guessedWord.length;++i){
                 input.close();
                 return;
             }
-            
+            break;
         }
     }
 
